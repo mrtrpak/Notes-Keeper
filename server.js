@@ -37,3 +37,18 @@ app.post("/api/notes", (req, res) => {
         res.sendStatus(200);
     });
 });
+
+app.delete("/api/notes/:id", (req, res) => {
+    const noteId = parseInt(req.params.id);
+    const noteObj = notes.find(note => note.id === noteId);
+    const deleteNote = notes.indexOf(noteObj);
+    notes.splice(deleteNote, 1);
+    fs.writeFile(source, JSON.stringify(notes), err => {
+        if (err) return err;
+    });
+    res.send(notes);
+});
+
+app.listen(PORT, () => {
+    console.log(`http://localhost:${PORT}`);
+});
