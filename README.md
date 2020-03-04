@@ -6,6 +6,10 @@ This application is designed so that the user can keep notes so they can stay on
 ## Getting Started
 Once the page loads the homepage the user can click the "get started" button. Then the app will route to the notes page. On this page the user can see previously saved notes on the left. On the right they can add in notes. The notes must have a title and text to be able to be saved. Once a title and text is entered the save icon will appear and then the user can save the note. The note will be pushed to the left with the other saved notes. The notes on the left can be deleted by clicking the trash can icon next to the corresponding note.
 
+## Tools Used
+- express
+- MySql
+
 ## Link
 [Link to Website](https://polar-fjord-43052.herokuapp.com/)
 
