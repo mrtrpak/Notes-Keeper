@@ -1,5 +1,15 @@
 # Notes-Keeper
 
+## Table of Contents
+
+- [Synopsis](#Synopsis)
+- [Getting Started](#Getting-Started)
+- [Tools Used](#Tools-Used)
+- [Link](#Link)
+- [Photos](#Photos)
+  - [Home page](#Photo-of-the-Homepage)
+  - [Notes page](#Photo-of-the-Notes-Page)
+  
 ## Synopsis
 
 This application is designed so that the user can keep notes so they can stay on track in this fast paced world.
